@@ -1,0 +1,48 @@
+.item-services
+  width: 100%
+  display: flex
+  justify-content: center
+  &__item
+    border: 1px solid #ffffff
+    width: 90%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+  &__icon
+    &-idea
+      text-align: center
+      @include icon-bg($width: 26px, $height: 25px,$background: url("../../img/elements/icon_idea.png"))
+    &-monitor
+      text-align: center
+      @include icon-bg($width: 27px, $height: 21px,$background: url("../../img/elements/icon_monitor.png"))
+    &-chart
+      text-align: center
+      @include icon-bg($width: 22px, $height: 24px,$background: url("../../img/elements/icon_chart.png"))
+    &-wordpress
+      text-align: center
+      @include icon-bg($width: 21px, $height: 21px,$background: url("../../img/elements/icon_wordpress.png"))
+  &__title
+    text-align: center
+    padding-top: 55px
+    @include text-style ($color: $color__fourth-text, $font-family: $font-family__second, $font-size: $font-size__tiny, $font-weight: $font-weight__semi-bold)
+    text-transform: uppercase
+    letter-spacing: 1.47px
+  &__text
+    margin: 0 auto
+    width: 87%
+    display: flex
+    text-align: center
+    padding-top: 29px
+    padding-bottom: 43px
+    @include text-style ($color: $color__fourth-text, $font-family: $font-family__first, $font-size: $font-size__extra-small, $font-weight: $font-weight__regular)
+    line-height: 20.31px
+    letter-spacing: 1.4px
+
+
+
+
+
+
+
+
