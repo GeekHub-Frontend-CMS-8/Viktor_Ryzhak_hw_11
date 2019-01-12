@@ -345,7 +345,7 @@ button {
   .item-timeline__items {
     padding: 5%; }
     .item-timeline__items-item {
-      border: 1px solid #3e3d3d;
+      border: 2px solid #3e3d3d;
       display: flex;
       flex-direction: column;
       position: relative; }
@@ -353,16 +353,16 @@ button {
         content: '';
         position: absolute;
         top: 20px;
-        left: -20.6px;
-        border: 10px solid transparent;
-        border-top: 10px solid #3e3d3d; }
+        left: -14px;
+        border-top: 14px solid #3e3d3d;
+        border-left: 14px solid transparent; }
       .item-timeline__items-item:after {
         content: '';
         position: absolute;
-        top: 20px;
-        border: 10px solid transparent;
-        border-top: 10px solid #ededed;
-        left: -19px; }
+        top: 22px;
+        left: -10px;
+        border-top: 11px solid #ededed;
+        border-left: 11px solid transparent; }
       .item-timeline__items-item:hover .layer {
         background-color: #3e3d3d;
         color: #fff; }
