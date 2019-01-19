@@ -1,0 +1,32 @@
+.home
+  display: flex
+  flex-direction: column
+  justify-content: center
+  &__background
+    background: url("../../../img/block/home_bg.jpg") center / cover no-repeat
+  &__content
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding-bottom: 100px
+  &__text
+    padding-top: 198px
+    padding-bottom: 3px
+    @include text-style ($color: $color__first-text, $font-family: $font-family__first, $font-size: $font-size__extra-small, $font-weight: $font-weight__regular)
+    letter-spacing: 1.4px
+  &__title
+    padding-top: 36px
+    padding-bottom: 16px
+    @include text-style ($color: $color__first-text, $font-family: $font-family__title-general, $font-size: $font-size__extra-large, $font-weight: $font-weight__regular)
+    letter-spacing: 1.4px
+  &__button
+    padding-top: 44px
+    position: relative
+    &:after
+      content: ""
+      position: absolute
+      width: 15px
+      height: 50px
+      bottom: -42px
+      left: 45%
+      background: url("../../../img/elements/button-arrow.png")

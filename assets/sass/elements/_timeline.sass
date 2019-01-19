@@ -1,0 +1,24 @@
+.timeline
+  position: relative
+  width: auto
+  margin: 0 auto
+  list-style-type: none
+  &:before
+    position: absolute
+    left: 50%
+    top: 0
+    content: ' '
+    display: block
+    width: 2px
+    height: 100%
+    margin-left: -1px
+    background: rgb(80,80,80)
+    z-index: 5
+  &__item
+    padding: 1em 0
+    &::after
+      content: ""
+      display: block
+      height: 0
+      clear: both
+      visibility: hidden
